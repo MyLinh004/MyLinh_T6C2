@@ -1,61 +1,8 @@
-Môn học:CNPMNC 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login & Registration</title>
-    <link rel="stylesheet" href="../Css/SignUp.css">
-</head>
-<body>
-    <div class="container">
-        <div class="form-box">
-            <!-- Tabs for Switching between Login and Register -->
-            <div class="button-box">
-                <button id="loginBtn" class="toggle-btn active" onclick="showLogin()">Đăng nhập</button>
-                <button id="registerBtn" class="toggle-btn" onclick="showRegister()">Đăng ký</button>
-            </div>
-            
-            <!-- Login Form -->
-            <form id="loginForm" class="input-group">
-                <table>
-                <div><label for="login-username">Email đăng nhập:</label></div>
-                <div><input type="text" id="login-email" placeholder="Email đăng nhập" required></div>
-                
-                <div><label for="login-password">Nhập mật khẩu:</label></div>
-                <div><input type="password" id="login-password" placeholder="Nhập mật khẩu" required></div>
-                <!-- Nút quên mật khẩu -->
-                <div>
-                      <a href="ForgetPassword.html" class="forgot-password-btn">Quên mật khẩu?</a>
-                </div>
-                
-                <div><button type="submit" class="submit-btn">Đăng nhập</button></div>
-            </table>
-            </form>
-
-            <!-- Registration Form -->
-            <form id="registerForm" class="input-group" style="display:none;">
-                
-                <label for="register-email">Nhập email:</label>
-                <input type="email" id="register-email" placeholder="Nhập email" required>
-                
-                <label for="register-password">Nhập mật khẩu:</label>
-                <input type="password" id="register-password" placeholder="Nhập mật khẩu" required>
-                
-                <label for="register-password-confirm">Nhập lại mật khẩu:</label>
-                <input type="password" id="register-password-confirm" placeholder="Nhập lại mật khẩu" required>
-                
-                <button type="submit"  class="submit-btn">Đăng ký</button>
-            </form>
-        </div>
-        
-        <!-- Welcome Text -->
-        <div class="welcome-text" id="welcomeMessage">
-            Chào mừng bạn đã đến với web đọc truyện của chúng tôi!
-        </div>
-    </div>
-
-    <script src="../Js/SignUp.js"></script>
-    <script type = "module" src="../Js/firebase_auth.js"></script>
-</body>
-</html>
+# Môn học:CNPMNC 
+- Tôi tên **Nguyễn Thị Mỹ Linh** là một trong 5 thành viên trong nhóm 3 ❤️. Tôi đảm nhận vai trò Dev là chủ yếu code và chỉnh sửa code trong nhóm 🪪. Tôi biết các ngôn ngữ nhưng Java, C#, Html, PHP,....Nhóm tôi đang bắt tay vào một dự án đột phá, xây dựng một website bán điện thoại tinh tế và hiện đại, đáp ứng mọi nhu cầu của khách hàng 📱.
+## <div align="center"> ![Logo](https://cdn1.123job.vn/123job/uploads/2022/03/03/2022_03_03______4d0849955e98324dc6334073daac0531.jpg) </div>
+- **Nhóm 3** là nơi tập trung những có kinh nghiệm, nhiệt quyết và có khát khao đam mê với công nghệ 💻. Mỗi thành viên có tinh thần đồng đội, tinh thần trách nhiệm cao không ngại gian khổ luôn cùng nhau vượt qua để đạt được thành công 📈.
+## <div align="center" > <a href="https://www.facebook.com/profile.php?id=100040795507157&locale=vi_VN"><img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-1/284558879_781429289893581_9152208519850842240_n.jpg?stp=dst-jpg_s200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=Bbu79y23HZcQ7kNvgHCP3-D&_nc_zt=24&_nc_ht=scontent.fhan4-6.fna&_nc_gid=AcDFRP4jBoUNwz9LqEvDivx&oh=00_AYDx8eO5xVqfeeMrSWD8KiqHUJBif_InNrv0IQwELW0b4Q&oe=6720DEF6" alt="alt text" width="150" height="150"></a>   <a href="https://www.facebook.com/mimimeomeo27?locale=vi_VN"><img src="https://scontent.fhan4-2.fna.fbcdn.net/v/t1.30497-1/453178253_471506465671661_2781666950760530985_n.png?stp=dst-png_s200x200&_nc_cat=1&ccb=1-7&_nc_sid=136b72&_nc_ohc=hcecQxHAmQEQ7kNvgHnOuTA&_nc_zt=24&_nc_ht=scontent.fhan4-2.fna&_nc_gid=Ad9SY4NVr5wKVDTVWvG2pHP&oh=00_AYAQxPLkb3Ho5tSvFOQJF7-519BoKdthSocXYkWBfDgYFw&oe=6742793A" alt="alt text" width="150" height="150"></a>    <a href="https://www.facebook.com/profile.php?id=100009365082113&locale=vi_VN"><img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-1/458165009_3950170675305063_6939742617832514994_n.jpg?stp=dst-jpg_s200x200&_nc_cat=109&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=U6LE7kHCVqMQ7kNvgGNlKRp&_nc_zt=24&_nc_ht=scontent.fhan4-6.fna&_nc_gid=A1meBYOWHT9dVPA0n5q9c3s&oh=00_AYCKEAgUxN3nGndeLoR_9MCWU_DbPVOJJ6-DsvzKiX-YEw&oe=6720D0EF" alt="alt text" width="150" height="150"></a>    <a href="https://www.facebook.com/phuthinh.lam.5?mibextid=LQQJ4d"><img src="https://scontent.fhan4-6.fna.fbcdn.net/v/t39.30808-1/457450331_2852396751575582_3549805363279353906_n.jpg?stp=dst-jpg_s200x200&_nc_cat=109&ccb=1-7&_nc_sid=50d2ac&_nc_ohc=5PvqO-2H-_cQ7kNvgGeLTHH&_nc_zt=24&_nc_ht=scontent.fhan4-6.fna&_nc_gid=AB03_Deeve4uDAQT08g_dln&oh=00_AYAwKuQJ37xGCHDc9P6UjwbrK3GUiT9bh0X4kRvcM667MQ&oe=6720D03F" alt="alt text" width="150" height="150"></a>    <a href="https://www.facebook.com/profile.php?id=100010233703408"><img src="https://scontent.fhan4-3.fna.fbcdn.net/v/t39.30808-1/320216361_2036961573156228_7472653043949547710_n.jpg?stp=dst-jpg_s200x200&_nc_cat=110&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=mkusGN2vnDAQ7kNvgFJNy1z&_nc_zt=24&_nc_ht=scontent.fhan4-3.fna&_nc_gid=A2vBafTZGmaH81qMpf5t86q&oh=00_AYC2HGI8Hb0SxMAR9q5JFltvILJAUEGC_M5doDHslPTXjQ&oe=6720F9F5" alt="alt text" width="150" height="150"></a></div>
+- **Dự Án Web Bán Điện Thoại** là một sản phẩm công nghệ tiên tiến, hứa hẹn mang đến trải nghiệm mua sắm tuyệt vời. Từ giao diện thân thiện, dễ sử dụng đến các tính năng thông minh như tìm kiếm sản phẩm, so sánh giá, dự án này chính là minh chứng cho sự sáng tạo không ngừng của Nhóm 3 📲.
+### ![Logo](https://png.pngtree.com/png-clipart/20230824/original/pngtree-coders-and-programmers-team-picture-image_8370719.png)
+[Visit my site](https://github.com/MyLinh004)
